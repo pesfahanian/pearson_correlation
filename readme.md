@@ -1,1 +1,1 @@
-readme
+This code trains a custom CNN on the MNIST dataset (acc = 99%) and extracts the model's feature extractor block. A subset of the dataset is selected and their feature vectors are calcilated. The Pearson correlation (Rho) for each pair of vectors is calculated. It is assumed that the images belonging to the same class should have a higher correlation value. This assumption holds.
